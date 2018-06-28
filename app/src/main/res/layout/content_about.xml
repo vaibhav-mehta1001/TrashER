@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".About"
+    android:background="#ffffff"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="About "
+        android:textSize="35dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:text="This app has two parts:
+
+1)	The first part classifies a piece of trash into recyclable, compostable, e-waste and trash. This helps users know which bins to throw their trash in. There are some objects which are not recycled by all recyclers, so this app only classifies commonly recyclable objects.The Confidence tells you how sure the app is.
+
+2)	TrashER also helps you locate recyclers near you
+
+(Note: The classification is not 100% accurate and TrashER is not liable for any damage caused because of this. We are also not responsible for information about recyclers. )
+"
+        android:textSize="19dp" />
+</RelativeLayout>

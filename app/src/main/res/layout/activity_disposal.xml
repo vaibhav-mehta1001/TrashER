@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Disposal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Waste Disposal"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="The average person generates 1.1Kg of waste everyday. Multiply that by 7.6 Billion and you see the scale of the problem. Therefore, efficient waste disposal is necessary for sustainable living. This includes reusing as much as possible. When that is not possible, we must recycle what we can." />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="256dp"
+        android:layout_height="137dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginBottom="153dp"
+        android:scrollbars = "vertical"
+        android:text="To recycle, simply contact a recycler near you. If you don’t know of any simply swipe on the main page to find recyclers near you. Most objects like cans, plastic bottles, etc. are recyclable. Other objects like Styrofoam, may or may not be, depending on your recycler.If in doubt, swipe on the main page and take a photo, and let the app classify it for you. " />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="143dp"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_marginEnd="-18dp"
+        app:srcCompat="@drawable/images" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView3"
+        android:text="(Note : This classification is not always reliable so ask your recycler.)" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginBottom="71dp"
+        android:text="Composting"
+        android:textColor="#228B22"
+        android:textSize="24dp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView6"
+        android:scrollbars="vertical"
+        android:text="This is a method used to make manure out of kitchen waste. To start composting at home, simply choose a container of about 3x3x3 feet and mix you kitchen waste(Not meat and animal products) with soil. And That’s it! You can get better results by making the process more precise.
+Go to : https://www.planetnatural.com/home-composting/ to know more
+" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginTop="182dp"
+        android:text="Recycling"
+        android:textColor="#151B8D"
+        android:textSize="24dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

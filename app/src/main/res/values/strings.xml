@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TrashER</string>
+
+    <string name="hot">hot</string>
+    <string name="not">not</string>
+
+    <string name="take_photo">Take photo</string>
+    <string name="title_activity_home">TrashER</string>
+    <string name="title_activity_maps">Recyclers Near Me</string>
+    <string name="title_activity_about">About</string>
+</resources>
